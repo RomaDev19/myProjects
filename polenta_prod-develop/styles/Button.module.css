@@ -1,0 +1,40 @@
+.btnBlck {
+    padding: 50px 0;
+}
+.btnBlck > a {
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid #161616;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.btnBlck > a > div {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #161616;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+    padding: 0 16px;
+}
+.btnBlck > a:hover {
+    background: #CC8624 ;
+    border: 2px solid #CC8624;
+    text-decoration: none;
+}
+.btnBlck > a:hover > div {
+    color: #fff;
+}
+@media (max-width: 425px) {
+    .btnBlck > a {
+        background: #CC8624;
+        border: 2px solid #CC8624;
+    }
+
+}

@@ -1,0 +1,13 @@
+.switchLang {
+    list-style: none;
+    margin-top: 0;
+    flex-grow: 1;
+    padding: 0;
+    padding-right: 15px;
+    text-align: right;
+}
+
+.switchItem {
+    margin-bottom: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+.amount__order {
+
+    padding: 0 25px 0 135px;
+}
+.amount__order div {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 88px;
+    border-bottom: 3px solid #CC8624;
+}
+.amount__order div a:hover {
+    text-decoration: none;
+    transform: scale(1.5);
+}
+.amount__order div a {
+    cursor: pointer;
+
+}
+.amount__order div a,
+.amount__order div span {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: rgba(22, 22, 22, 0.5);
+}
