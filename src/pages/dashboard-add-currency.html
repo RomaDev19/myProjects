@@ -1,0 +1,1233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <main>
+      <nav class="sidenav">
+        <img class="logo" src="../assets/img/logo.svg" />
+        <img class="logo-tablet" src="../assets/img/logo-tablet.svg" />
+        <ul class="sidenav-menu">
+          <li class="sidenav-link-active">
+            <a href="dashboard.html">
+              <img src="../assets/img/dashboard-active.svg" alt="" />
+
+              <span>Dashboard</span></a
+            >
+          </li>
+
+          <li class="sidenav-link">
+            <a href="clients.html">
+              <img src="../assets/img/Pool Statistic.svg" alt="" />
+
+              <span>Pool Statistic</span></a
+            >
+          </li>
+
+          <li class="sidenav-link">
+            <a href="fake.html">
+              <img src="../assets/img/Investment cases.svg" alt="" />
+
+              <span>Investment cases</span></a
+            >
+          </li>
+
+          <li class="sidenav-link">
+            <a href="deposit.html">
+              <img src="../assets/img/Finance Story.svg" alt="" />
+
+              <span>Finance Story</span></a
+            >
+          </li>
+
+          <li class="sidenav-link">
+            <a href="pool.html">
+              <img src="../assets/img/Careers.svg" alt="" />
+
+              <span>Careers</span></a
+            >
+          </li>
+
+          <li class="sidenav-link">
+            <a href="coin.html">
+              <img src="../assets/img/Team.svg" alt="" />
+
+              <span>Team</span></a
+            >
+          </li>
+
+          <li class="sidenav-link">
+            <a href="award.html">
+              <img src="../assets/img/My Investments.svg" alt="" />
+
+              <span>My Investments</span></a
+            >
+          </li>
+          <li class="sidenav-link">
+            <a href="finance.html">
+              <img src="../assets/img/Profile.svg" alt="" />
+
+              <span>Profile</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="dashboard">
+        <header>
+          <div class="exchange">
+            <img src="../assets/img/uil_exchange-alt.svg" alt="" />
+          </div>
+          <h1>Dashboard</h1>
+          <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="user">
+            <div class="user-display">
+              <div class="user-display__amount">
+                <img src="../assets/img/usd.svg" alt="" />
+                <span>USDT</span>
+                <div>247.43</div>
+              </div>
+              <div class="btn">
+                <img
+                  src="../assets/img/uil_exchange-alt.svg"
+                  width="20"
+                  height="20"
+                  alt=""
+                />
+              </div>
+            </div>
+            <p class="user-name">Olseter Makneym</p>
+            <a class="user-profile">
+              <div class="user-profile-icon">
+                <img src="../assets/img/Avatar-10.png" alt="avatar" />
+              </div>
+
+              <div class="user-profile-select">
+                <img
+                  src="../assets/img/eva_arrow-ios-downward-fill.svg"
+                  alt="down-arrow"
+                />
+              </div>
+            </a>
+            <!-- <div id="popup-profile" class="popup-profile">
+                            <a class="edit-profile" >
+                                <img src="../assets/img/ant-design_edit-outlined.svg" alt=""/>
+                                <div class="">Edit Profile</div>
+                            </a>
+                            <a href="">
+                                <img src="../assets/img/bx_bx-log-out.svg" alt=""/>
+                                <div>Log out  </div>
+                            </a>
+                        </div> -->
+          </div>
+        </header>
+
+        <section class="balance">
+          <div class="sec-row">
+            <h3>
+              Balance
+              <a href="#"
+                ><img
+                  src="../assets/img/alert-circle.svg"
+                  width="15"
+                  height="15"
+                  alt="info"
+              /></a>
+            </h3>
+          </div>
+          <div class="balance__price-wrap">
+            <div class="balance__price">
+              <div>
+                <img src="../assets/img/usd-balance.svg" alt="" />
+                <div class="info">
+                  <span>
+                    USDT
+                    <a href="#"
+                      ><img
+                        src="../assets/img/c-info-e.svg"
+                        alt="info"
+                        width="12"
+                        height="12"
+                    /></a>
+                  </span>
+                  <div class="price">247.43</div>
+                </div>
+              </div>
+              <button type="button">+</button>
+            </div>
+            <div class="balance__price">
+              <div>
+                <img src="../assets/img/usd-balance.svg" alt="" />
+                <div class="info">
+                  <span>
+                    USDT
+                    <a href="#"
+                      ><img
+                        src="../assets/img/c-info-e.svg"
+                        alt="info"
+                        width="12"
+                        height="12"
+                    /></a>
+                  </span>
+                  <div class="price">247.43</div>
+                </div>
+              </div>
+              <button type="button">+</button>
+            </div>
+            <div class="balance__price">
+              <div>
+                <img src="../assets/img/usd-balance.svg" alt="" />
+                <div class="info">
+                  <span>
+                    USDT
+                    <a href="#"
+                      ><img
+                        src="../assets/img/c-info-e.svg"
+                        alt="info"
+                        width="12"
+                        height="12"
+                    /></a>
+                  </span>
+                  <div class="price">247.43</div>
+                </div>
+              </div>
+              <button type="button">+</button>
+            </div>
+            <div class="balance__price">
+              <div>
+                <img src="../assets/img/usd-balance.svg" alt="" />
+                <div class="info">
+                  <span>
+                    USDT
+                    <a href="#"
+                      ><img
+                        src="../assets/img/c-info-e.svg"
+                        alt="info"
+                        width="12"
+                        height="12"
+                    /></a>
+                  </span>
+                  <div class="price">247.43</div>
+                </div>
+              </div>
+              <button type="button">+</button>
+            </div>
+            <div class="balance__price">
+              <div>
+                <img src="../assets/img/usd-balance.svg" alt="" />
+                <div class="info">
+                  <span>
+                    USDT
+                    <a href="#"
+                      ><img
+                        src="../assets/img/c-info-e.svg"
+                        alt="info"
+                        width="12"
+                        height="12"
+                    /></a>
+                  </span>
+                  <div class="price">247.43</div>
+                </div>
+              </div>
+              <button type="button">+</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="my-cases">
+          <div class="sec-row">
+            <h3>
+              My Cases
+              <a href="#"
+                ><img
+                  src="../assets/img/alert-circle.svg"
+                  width="15"
+                  height="15"
+                  alt="info"
+              /></a>
+            </h3>
+            <div class="calendar-blck">
+              <div class="switch-cal">
+                <div class="btn">
+                  <img
+                    src="../assets/img/Next.svg"
+                    width="15"
+                    height="15"
+                    alt=""
+                  />
+                </div>
+                <div class="date"><span>4 September</span></div>
+                <div class="btn">
+                  <img
+                    src="../assets/img/Next2.svg"
+                    width="15"
+                    height="15"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="btn">
+                <img
+                  src="../assets/img/akar-icons_calendar.svg"
+                  width="20"
+                  height="20"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="my-cases__chart"></div>
+        </section>
+
+        <section class="my-pools">
+          <div class="sec-row">
+            <h3>My Pools</h3>
+            <a class="see-all">See all</a>
+          </div>
+          <div class="my-pools__pool-wrap">
+            <div class="my-pools__pool">
+              <div class="pool-header">
+                <h4>Pool 1</h4>
+                <div class="btn">
+                  <img
+                    src="../assets/img/akar-icons_calendar.svg"
+                    width="20"
+                    height="20"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="pool-profit">
+                <div>Your profit</div>
+                <div class="value">2.4 <span>ETC</span></div>
+              </div>
+              <div class="pool-chart"></div>
+            </div>
+            <div class="my-pools__pool">
+              <div class="pool-header">
+                <h4>Pool 1</h4>
+                <div class="btn">
+                  <img
+                    src="../assets/img/akar-icons_calendar.svg"
+                    width="20"
+                    height="20"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="pool-profit">
+                <div>Your profit</div>
+                <div class="value">2.4 <span>ETC</span></div>
+              </div>
+              <div class="pool-chart"></div>
+            </div>
+            <div class="my-pools__pool">
+              <div class="pool-header">
+                <h4>Pool 1</h4>
+                <div class="btn">
+                  <img
+                    src="../assets/img/akar-icons_calendar.svg"
+                    width="20"
+                    height="20"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="pool-profit">
+                <div>Your profit</div>
+                <div class="value">2.4 <span>ETC</span></div>
+              </div>
+              <div class="pool-chart"></div>
+            </div>
+            <div class="my-pools__pool">
+              <div class="pool-header">
+                <h4>Pool 1</h4>
+                <div class="btn">
+                  <img
+                    src="../assets/img/akar-icons_calendar.svg"
+                    width="20"
+                    height="20"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="pool-profit">
+                <div>Your profit</div>
+                <div class="value">2.4 <span>ETC</span></div>
+              </div>
+              <div class="pool-chart"></div>
+            </div>
+            <div class="my-pools__pool">
+              <div class="pool-header">
+                <h4>Pool 1</h4>
+                <div class="btn">
+                  <img
+                    src="../assets/img/akar-icons_calendar.svg"
+                    width="20"
+                    height="20"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="pool-profit">
+                <div>Your profit</div>
+                <div class="value">2.4 <span>ETC</span></div>
+              </div>
+              <div class="pool-chart"></div>
+            </div>
+            <div class="my-pools__pool">
+              <div class="pool-header">
+                <h4>Pool 1</h4>
+                <div class="btn">
+                  <img
+                    src="../assets/img/akar-icons_calendar.svg"
+                    width="20"
+                    height="20"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="pool-profit">
+                <div>Your profit</div>
+                <div class="value">2.4 <span>ETC</span></div>
+              </div>
+              <div class="pool-chart"></div>
+            </div>
+            <div class="my-pools__pool">
+              <div class="pool-header">
+                <h4>Pool 1</h4>
+                <div class="btn">
+                  <img
+                    src="../assets/img/akar-icons_calendar.svg"
+                    width="20"
+                    height="20"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="pool-profit">
+                <div>Your profit</div>
+                <div class="value">2.4 <span>ETC</span></div>
+              </div>
+              <div class="pool-chart"></div>
+            </div>
+            <div class="my-pools__pool">
+              <div class="pool-header">
+                <h4>Pool 1</h4>
+                <div class="btn">
+                  <img
+                    src="../assets/img/akar-icons_calendar.svg"
+                    width="20"
+                    height="20"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="pool-profit">
+                <div>Your profit</div>
+                <div class="value">2.4 <span>ETC</span></div>
+              </div>
+              <div class="pool-chart"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="coin">
+          <div class="sec-row">
+            <h3>Coin</h3>
+            <a class="add-to-case">Add to case</a>
+          </div>
+          <div class="coin__chart"></div>
+        </section>
+
+        <!-- <section class="template" >
+                <div class="sec-title h-el   mb8">Total</div>
+                <div class="temp-container mt16">
+                    <div class="item mb24">
+                        <div class="name">BTC
+                            <a href="#"><img src="../assets/img/alert-circle.svg"  alt=""></a>
+                        </div>
+                        <div class="value">52</div>
+                    </div>
+
+                    <div class="item mb24">
+                        <div class="name">ETH
+                            <a href="#"><img src="../assets/img/alert-circle.svg" alt=""></a>
+                        </div>
+                        <div class="value">521</div>
+                    </div>
+
+                    <div class="item mb24">
+                        <div class="name">TRX
+                            <a href="#"><img src="../assets/img/alert-circle.svg" alt=""></a>
+                        </div>
+                        <div class="value">12</div>
+                    </div>
+
+                    <div class="item mb24">
+                        <div class="name">LTC
+                            <a href="#"><img src="../assets/img/alert-circle.svg" alt=""></a>
+                        </div>
+                        <div class="value">82</div>
+                    </div>
+                </div>
+                <div class="sec-title  ">Output amount</div>
+                <div class="temp-container">
+                    <div class="item mb24">
+                        <div class="name">BTC
+                            <a href="#"><img src="../assets/img/alert-circle.svg" alt=""></a>
+                        </div>
+                        <div class="value red">52</div>
+                    </div>
+
+                    <div class="item mb24">
+                        <div class="name">ETH
+                            <a href="#"><img src="../assets/img/alert-circle.svg" alt=""></a>
+                        </div>
+                        <div class="value red">521</div>
+                    </div>
+
+                    <div class="item mb24">
+                        <div class="name">TRX
+                            <a href="#"><img src="../assets/img/alert-circle.svg" alt=""></a>
+                        </div>
+                        <div class="value red">12</div>
+                    </div>
+
+                    <div class="item mb24">
+                        <div class="name">LTC
+                            <a href="#"><img src="../assets/img/alert-circle.svg" alt=""></a>
+                        </div>
+                        <div class="value red">82</div>
+                    </div>
+                </div>
+                <div class="sec-title  ">Total</div>
+                <div class="temp-container">
+                    <div class="item mb24" style="background: url('../assets/img/Shape4.png'), linear-gradient(
+                        103.5deg, #000000 7.5%, #070A03 66.74%, #000000 112.06%)!important; background-repeat: no-repeat!important; background-position: 6% 100%!important;">
+                        <div class="name">Clients
+                            <a href="#"><img src="../assets/img/alert-circle.svg" alt=""></a>
+                        </div>
+                        <div class="value">423</div>
+                    </div>
+                </div>
+
+            </section> -->
+      </div>
+    </main>
+    <div class="modal">
+      <!-- Modal content -->
+      <div class="modal-body">
+        <div class="modal-header">
+          <div class="dn-element"></div>
+          <h1>Add currency</h1>
+          <span class="close"
+            ><img src="../assets/img/i-remove.svg" alt=""
+          /></span>
+        </div>
+
+        <div class="modal-sec">
+          <div class="wallet">
+            <label for="wallet">Your wallet</label>
+            <input
+              id="wallet"
+              type="text"
+              placeholder="x82xw9292xr93jf902nf022ndhc7"
+            />
+            <div class="copy-wallet">
+              <img src="../assets/img/wallet-copy.svg" alt="copy" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <style>
+      * {
+        font-family: Inter;
+      }
+      .sidenav-menu {
+        padding-left: 0;
+        margin-top: 24px;
+      }
+      .sidenav-menu .sidenav-link {
+        list-style: none;
+        border-radius: 12px;
+        margin-bottom: 8px;
+      }
+
+      .sidenav-menu a {
+        padding: 12px 24px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #d2d2d2;
+      }
+      .sidenav-link-active {
+        background: #36a503;
+
+        list-style: none;
+        border-radius: 12px;
+        margin-bottom: 8px;
+      }
+      .sidenav-link-active a {
+        color: #ffffff;
+      }
+      .sidenav-menu span {
+        margin-left: 16px;
+      }
+      .icon-sidenav-menu {
+        display: flex;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      header h1 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 40px;
+        color: #ffffff;
+        margin: 0;
+      }
+      .user {
+        display: flex;
+        cursor: pointer;
+        position: relative;
+      }
+      .user-display {
+        display: flex;
+        align-items: center;
+      }
+      .user-display .btn {
+        margin: 0px 24px;
+      }
+      .user-display__amount {
+        display: flex;
+        align-items: center;
+      }
+      .user-display__amount span {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        color: #b3b3b3;
+        margin: 0 8px;
+      }
+      .user-display__amount div {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #ffffff;
+      }
+      .user-name {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #ffffff;
+        margin-right: 12px;
+      }
+      .user-profile {
+        display: flex;
+        /* margin-left: 12px; */
+        align-items: center;
+      }
+      .user-profile-select {
+        display: flex;
+        align-items: center;
+      }
+      .user-profile-select img {
+        margin-left: 13px;
+      }
+      .user-profile-icon {
+        width: 48px;
+        height: 48px;
+        background: linear-gradient(
+          180deg,
+          #f1ffe3 0%,
+          rgba(54, 165, 3, 0.15) 100%
+        );
+        border-radius: 250px;
+        text-align: center;
+        line-height: 69px;
+      }
+
+      body {
+        background-color: #000000;
+        padding: 0;
+        margin: 0;
+      }
+      .btn {
+        background: linear-gradient(
+          103.5deg,
+          #000000 7.5%,
+          #070a03 66.74%,
+          #000000 112.06%
+        );
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #202020;
+        box-sizing: border-box;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .sec-row {
+        display: flex;
+        justify-content: space-between;
+        margin: 24px 0;
+        align-items: center;
+      }
+      .sec-row a {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 40px;
+        text-decoration: none;
+        color: #36a503;
+        cursor: pointer;
+      }
+      .dashboard h3 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        color: #ffffff;
+        display: flex;
+        margin: 0;
+      }
+      .dashboard h3 a {
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+      }
+      .balance__price-wrap {
+        display: flex;
+      }
+      .balance__price {
+        width: 100%;
+        justify-content: space-between;
+        margin-right: 24px;
+        background: #0b0b0b;
+        border: 1px solid #202020;
+        box-sizing: border-box;
+        box-shadow: 2px 2px 10px #171717;
+        border-radius: 12px;
+
+        display: flex;
+      }
+      .balance__price:last-child {
+        margin-right: 0;
+      }
+      .balance__price > div {
+        margin: 16px;
+        display: flex;
+      }
+      .balance__price span {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        color: #b3b3b3;
+      }
+      .balance__price span a {
+        margin-left: 8px;
+      }
+      .balance__price .price {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #ffffff;
+      }
+      .balance__price .info {
+        margin-left: 16px;
+      }
+      .dashboard button:focus-visible {
+        outline-color: inherit;
+        outline-style: none;
+        outline-width: 0;
+      }
+      .dashboard button {
+        border: 0;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #ffffff;
+        display: flex;
+        width: 20px;
+        justify-content: center;
+        align-items: center;
+        background: #34a608;
+        cursor: pointer;
+      }
+      .calendar-blck {
+        display: flex;
+        align-items: center;
+      }
+      .switch-cal {
+        display: flex;
+        margin-right: 16px;
+      }
+      .switch-cal span {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 24px;
+        color: #ffffff;
+        margin: 0 24px;
+      }
+      .switch-cal .date {
+        display: flex;
+        align-items: center;
+      }
+      .my-cases__chart {
+        height: 540px;
+      }
+      .my-pools__pool-wrap {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .my-pools__pool {
+        background: radial-gradient(
+          103.03% 103.03% at 0% 0%,
+          #242424 0%,
+          #000000 63.02%
+        );
+        border-radius: 12px;
+        width: 100%;
+        padding: 16px;
+        margin-right: 24px;
+        flex: 1 0 20%;
+        margin-bottom: 24px;
+      }
+      .my-pools__pool:nth-child(4n + 4) {
+        margin-right: 0;
+      }
+      .my-pools__pool .pool-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #202020;
+      }
+      .my-pools__pool h4 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 32px;
+        color: #36a503;
+        margin: 0;
+      }
+      .my-pools__pool .pool-profit {
+        font-style: normal;
+        margin: 16px 0;
+      }
+      .pool-profit > div {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 16px;
+        color: #a7a7a7;
+      }
+      .pool-profit .value {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        color: #ffffff;
+      }
+      .pool-profit span {
+        font-size: 14px;
+        line-height: 24px;
+        color: #c5c5c5;
+      }
+      .pool-chart {
+        height: 99px;
+        background: url('../assets/img/pool-chart.png');
+      }
+      .coin__chart {
+        height: 349px;
+        background: url('../assets/img/coin-chart.png') no-repeat;
+      }
+      .coin .sec-row {
+        margin-top: 0;
+      }
+      @font-face {
+        font-family: 'Inter';
+        src: url('../assets/fonts/Inter Regular.otf');
+      }
+
+      .exchange {
+        display: none;
+      }
+      main {
+        display: flex;
+        background: linear-gradient(
+          51.09deg,
+          #000000 -13.01%,
+          #0d0d0d 45.52%,
+          #181818 111.86%
+        );
+      }
+      .sidenav {
+        padding: 24px;
+        border-right: 1px solid #202020;
+        background: #000000;
+      }
+
+      main > div {
+        width: 100%;
+        padding: 24px;
+      }
+
+      .template .title-template {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 40px;
+
+        justify-content: space-between;
+        display: flex;
+        color: #ffffff;
+      }
+      .menu-btn {
+        display: none;
+        width: 30px;
+        height: 30px;
+        position: relative;
+        z-index: 2;
+        overflow: hidden;
+      }
+      .menu-btn span {
+        width: 18px;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #36a503;
+        transition: all 0.5s;
+      }
+
+      .menu-btn span:nth-of-type(2) {
+        top: calc(50% - 7px);
+      }
+      .menu-btn span:nth-of-type(3) {
+        top: calc(50% + 7px);
+      }
+      .menu-btn.active span:nth-of-type(1) {
+        display: none;
+      }
+      .menu-btn.active span:nth-of-type(2) {
+        top: 50%;
+        transform: translate(-50%, 0%) rotate(45deg);
+      }
+      .menu-btn.active span:nth-of-type(3) {
+        top: 50%;
+        transform: translate(-50%, 0%) rotate(-45deg);
+      }
+      .logo-tablet {
+        display: none;
+      }
+
+      /* MODAL */
+      .modal {
+        visibility: visible;
+        opacity: 1;
+        z-index: 99;
+        position: fixed;
+
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      .modal-body {
+        width: 628px;
+        height: 100%;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding: 24px;
+
+        float: right;
+        padding: 24px;
+        border: 1px solid #888;
+
+        background: linear-gradient(
+          103.5deg,
+          #000000 7.5%,
+          #070a03 66.74%,
+          #000000 112.06%
+        );
+        border: 1px solid #202020;
+        box-sizing: border-box;
+        border-radius: 12px;
+      }
+      .modal .modal-header {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 16px;
+        border-bottom: 1px solid #202020;
+      }
+
+      .close {
+        border: 1px solid #202020;
+        box-sizing: border-box;
+        border-radius: 6px;
+        color: #fff;
+        float: right;
+        font-size: 28px;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+      .modal h1 {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 36px;
+        color: #fff;
+      }
+      .modal .wallet {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+      }
+      .modal .copy-wallet {
+        position: relative;
+        text-align: right;
+        bottom: 37px;
+        margin-right: 16px;
+      }
+      .modal label {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        color: #808191;
+        margin-bottom: 16px;
+        cursor: pointer;
+      }
+      .modal input {
+        background: #141414;
+        border: 1px solid #202020;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 16px;
+      }
+      .modal input::placeholder {
+        font-style: normal;
+        font-weight: normal;
+
+        font-size: 14px;
+        line-height: 24px;
+
+        color: #ffffff;
+      }
+      .dn-element {
+        display: none;
+      }
+      .modal-sec {
+        display: flex;
+        margin-top: 24px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      .modal-sec > div {
+        width: 48%;
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+      }
+
+      @media (max-width: 768px) {
+        .sidenav {
+          padding: 16px;
+        }
+        .logo-tablet {
+          width: 100%;
+          display: block;
+        }
+        .logo {
+          display: none;
+        }
+        .sidenav-menu span {
+          display: none;
+        }
+        .sidenav-menu a {
+          padding: 14px 18px;
+        }
+        .balance__price-wrap {
+          flex-wrap: wrap;
+        }
+        .user {
+          display: none;
+        }
+
+        .dashboard h3 a {
+          display: none;
+        }
+        .menu-btn {
+          display: flex;
+        }
+        main > div {
+          padding: 24px;
+        }
+        .calendar-blck {
+          display: none;
+        }
+        .exchange {
+          display: flex;
+        }
+        .balance__price > div {
+          margin: 16px 12px;
+        }
+
+        .balance__price {
+          margin-right: 24px;
+          margin-bottom: 24px;
+          width: 30%;
+        }
+        .balance__price:nth-child(3n) {
+          margin-right: 0;
+        }
+        .sec-row {
+          margin: 24px 0 16px 0;
+        }
+        header h1 {
+          font-weight: bold;
+          line-height: 36px;
+        }
+        .dashboard h3 {
+          font-weight: 500;
+        }
+        .sec-row a {
+          line-height: 28px;
+        }
+        .my-pools__pool {
+          flex: auto;
+          margin-right: 0;
+        }
+        .my-pools__pool:not(:first-child) {
+          display: none;
+        }
+        .my-cases__chart {
+          height: 311px;
+        }
+        /* MODAL */
+        .modal-body {
+          width: 76%;
+        }
+      }
+      @media (max-width: 425px) {
+        .sidenav-menu span {
+          display: block;
+        }
+        .logo-tablet {
+          display: none;
+        }
+        .logo {
+          display: block;
+        }
+        main {
+          margin-left: -245px;
+        }
+        .balance__price {
+          margin-right: 16px;
+          margin-bottom: 16px;
+          width: 47%;
+        }
+        .balance__price:nth-child(3n) {
+          margin-right: 16px;
+        }
+        main > div {
+          padding: 16px;
+        }
+        .balance__price:nth-child(2n) {
+          margin-right: 0;
+        }
+
+        /* MODAL */
+        .modal-body {
+          width: 100%;
+          padding: 16px;
+        }
+        .modal .modal-header {
+          border-bottom: none;
+          padding-bottom: 0;
+          flex-direction: row-reverse;
+        }
+        .modal input {
+          background: url(../assets/img/Line-input.svg) no-repeat 86%, #141414;
+        }
+        .modal label {
+          margin-top: 27px;
+        }
+        .modal h1 {
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 36px;
+        }
+        .close {
+          border: 0;
+        }
+        .dn-element {
+          display: block;
+          width: 40px;
+        }
+      }
+      @media (max-width: 374px) {
+        .balance__price {
+          margin-right: 0;
+          width: 100%;
+        }
+        .balance__price:nth-child(3n) {
+          margin-right: 0;
+        }
+      }
+    </style>
+  </body>
+</html>
