@@ -1,0 +1,25 @@
+stages:
+  - build
+  - deploy
+
+variables:
+  APP_DIR: /opt/projects/$CI_PROJECT_NAME
+  GIT_CLONE_PATH: $CI_BUILDS_DIR/$CI_PROJECT_NAME/$CI_PIPELINE_ID
+  GIT_SUBMODULE_STRATEGY: recursive  
+
+cache:
+    paths:
+      - dist
+  
+build-proj:
+  stage: build
+  script:
+    - npm install
+    - npm run build
+  only: 
+    - main
+
+update_symlinks:
+  stage: deploy
+  script:
+  - ln -nfs $GIT_CLONE_PATH/dist $APP_DIR/current
