@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Waxen</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="app" class="waxen">
+      <header>
+        <div class="logo">
+          <img :src="landingData.logoImage" alt="logo" />
+        </div>
+        <nav class="nav-menu">
+          <a href="#about" class="nav-menu-link__active"
+            >{{landingData.navMenu.linkAbout}}</a
+          ><a href="#system" class="nav-menu-link"
+            >{{landingData.navMenu.linkEcoSystem}}</a
+          ><a href="#coin" class="nav-menu-link"
+            >{{landingData.navMenu.linkCoin}}</a
+          >
+          <a href="#events" class="nav-menu-link"
+            >{{landingData.navMenu.linkEvents}}</a
+          ><a href="#contact" class="nav-menu-link"
+            >{{landingData.navMenu.linkContactUs}}</a
+          >
+        </nav>
+        <div class="btn-block">
+          <button class="green-btn">{{landingData.buttons.btnSignUp}}</button>
+        </div>
+        <div class="menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </header>
+      <main id="main">
+        <section class="banner-sec">
+          <div class="banner-text">
+            <h1>
+              {{landingData.sectionTitle.h2.bannerSec.item}}
+              <span>{{landingData.sectionTitle.h2.bannerSec.coin}} </span>
+            </h1>
+            <p>{{landingData.sectionText.bannerSec}}</p>
+            <div class="btn-block">
+              <button class="green-btn async-border">
+                {{landingData.buttons.btnJoin}}
+              </button>
+            </div>
+          </div>
+          <div class="banner-img"></div>
+        </section>
+
+        <section class="about-sec">
+          <div class="about-img">
+            <img :src="landingData.sectionImg.aboutSec" alt="play" />
+          </div>
+          <div class="about-text">
+            <h2 id="about">{{landingData.sectionTitle.h2.aboutSec}}</h2>
+            <p class="txt">{{landingData.sectionText.aboutSec}}</p>
+          </div>
+        </section>
+        <section class="system-sec">
+          <h2 id="system">
+            {{landingData.sectionTitle.h2.systemSec.item}}
+            <span>{{landingData.sectionTitle.h2.systemSec.coin}}</span>
+          </h2>
+          <div>
+            <div class="system-text">
+              <h3>{{landingData.sectionTitle.h3.systemSec1}}</h3>
+              <p class="txt">{{landingData.sectionText.systemSec1}}</p>
+            </div>
+            <div class="system-img">
+              <img :src="landingData.sectionImg.systemSec1" alt="sectionImg" />
+            </div>
+          </div>
+          <div>
+            <div class="system-img">
+              <img :src="landingData.sectionImg.systemSec2" alt="sectionImg" />
+            </div>
+            <div class="system-text">
+              <h3>{{landingData.sectionTitle.h3.systemSec2}}</h3>
+              <p class="txt">{{landingData.sectionText.systemSec2}}</p>
+            </div>
+          </div>
+          <div>
+            <div class="system-text">
+              <h3>{{landingData.sectionTitle.h3.systemSec3}}</h3>
+              <p class="txt">{{landingData.sectionText.systemSec3}}</p>
+            </div>
+            <div class="system-img">
+              <img
+                :src="landingData.sectionImg.systemSec3"
+                style="margin-left: -80px"
+                alt="sectionImg"
+              />
+            </div>
+          </div>
+          <div>
+            <div class="system-img">
+              <img
+                :src="landingData.sectionImg.systemSec4"
+                alt="sectionImg"
+                style="margin-left: -100px"
+              />
+            </div>
+            <div class="system-text">
+              <h3>{{landingData.sectionTitle.h3.systemSec4}}</h3>
+              <p class="txt">{{landingData.sectionText.systemSec4}}</p>
+            </div>
+          </div>
+        </section>
+        <section class="passive-income-sec">
+          <div class="passive-income-text">
+            <h2 id="coin">{{landingData.sectionTitle.h2.passiveIncomeSec}}</h2>
+            <p class="txt">{{landingData.sectionText.passiveIncomeSec}}</p>
+          </div>
+          <div class="passive-income-img">
+            <img
+              :src="landingData.sectionImg.passiveIncomeSec"
+              alt="waxen"
+              style="padding-top: 100px"
+            />
+          </div>
+        </section>
+        <section class="how-sec">
+          <h2>{{landingData.sectionTitle.h2.howSec}}</h2>
+
+          <div>
+            <div class="how-img">
+              <img :src="landingData.sectionImg.howSec" alt="Dashboard" />
+            </div>
+            <div class="how-container">
+              <div class="how-text">
+                <h3>{{landingData.sectionTitle.h3.howSec1}}</h3>
+                <p class="txt">{{landingData.sectionText.howSec1}}</p>
+              </div>
+              <div class="how-text">
+                <h3>{{landingData.sectionTitle.h3.howSec2}}</h3>
+                <p class="txt">{{landingData.sectionText.howSec2}}</p>
+              </div>
+              <div class="how-text">
+                <h3>{{landingData.sectionTitle.h3.howSec3}}</h3>
+                <p class="txt">{{landingData.sectionText.howSec3}}</p>
+              </div>
+              <div class="how-text">
+                <h3>{{landingData.sectionTitle.h3.howSec4}}</h3>
+                <p class="txt">{{landingData.sectionText.howSec4}}</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="event-sec">
+          <h2 id="events">{{landingData.sectionTitle.h2.eventSec}}</h2>
+
+          <div>
+            <div class="event-container">
+              <div class="event-item">
+                <img :src="landingData.sectionImg.eventSec1" alt="events-img" />
+                <h3>{{landingData.sectionTitle.h3.eventSec1}}</h3>
+                <p class="txt">{{landingData.sectionText.eventSec1}}</p>
+              </div>
+              <div class="event-item">
+                <img :src="landingData.sectionImg.eventSec2" alt="events-img" />
+                <h3>{{landingData.sectionTitle.h3.eventSec2}}</h3>
+                <p class="txt">{{landingData.sectionText.eventSec2}}</p>
+              </div>
+              <div class="event-item">
+                <img :src="landingData.sectionImg.eventSec3" alt="events-img" />
+                <h3>{{landingData.sectionTitle.h3.eventSec3}}</h3>
+                <p class="txt">{{landingData.sectionText.eventSec3}}</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="registration-sec">
+          <div id="contact" class="registration-img">
+            <img :src="landingData.sectionImg.registrationSec" alt="armchair" />
+          </div>
+          <div class="btn-block">
+            <button class="green-btn async-border">
+              {{landingData.buttons.btnJoinNow}}
+            </button>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <div class="footer-container">
+          <div class="logo">
+            <img :src="landingData.logoImage" alt="logo" />
+          </div>
+          <nav class="nav-menu">
+            <a href="#about" class="nav-menu-link"
+              >{{landingData.navMenu.linkAbout}}</a
+            ><a href="#system" class="nav-menu-link"
+              >{{landingData.navMenu.linkEcoSystem}}</a
+            ><a href="#coin" class="nav-menu-link"
+              >{{landingData.navMenu.linkCoin}}</a
+            >
+            <a href="#events" class="nav-menu-link"
+              >{{landingData.navMenu.linkEvents}}</a
+            ><a href="#contact" class="nav-menu-link__active"
+              >{{landingData.navMenu.linkContactUs}}</a
+            >
+          </nav>
+          <div class="social">
+            <a href="#" class="twitter"
+              ><img :src="landingData.social.twitter" alt="twitter" /></a
+            ><a href="#" class="facebook"
+              ><img :src="landingData.social.facebook" alt="facebook" /></a
+            ><a href="#" class="linkedin"
+              ><img :src="landingData.social.linkedin" alt="linkedin"
+            /></a>
+          </div>
+        </div>
+      </footer>
+
+      <div class="responsive-menu menu">
+        <nav class="nav-menu">
+          <a href="#about" class="nav-menu-link"
+            >{{landingData.navMenu.linkAbout}}</a
+          ><a href="#system" class="nav-menu-link"
+            >{{landingData.navMenu.linkEcoSystem}}</a
+          ><a href="#coin" class="nav-menu-link"
+            >{{landingData.navMenu.linkCoin}}</a
+          >
+          <a href="#events" class="nav-menu-link"
+            >{{landingData.navMenu.linkEvents}}</a
+          ><a href="#contact" class="nav-menu-link"
+            >{{landingData.navMenu.linkContactUs}}</a
+          >
+        </nav>
+      </div>
+    </div>
+    <!-- <div id="registration-modal" class="modal">
+
+      <div class="modal-content">
+        <div class="registration">
+          <div class="registration-img">
+            <img src="./images/mailbox.svg" alt="mailbox" />
+          </div>
+
+          <form class="form-registration">
+            <h1>Регистрация</h1>
+            <div class="form-input">
+              <input type="name" name="name" id="name" placeholder="Name" />
+            </div>
+
+            <div class="form-input">
+              <input type="email" name="email" id="email" placeholder="Email" />
+            </div>
+
+            <div class="form-input">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Telegramm"
+              />
+              <div class="hidden-block-social">
+                <div class="hidden-social">
+                  <img src="./images/Facebook.svg" alt="Facebook" />
+                  <img src="./images/Messenger.svg" alt="Messenger" />
+                  <img src="./images/Instagram.svg" alt="Instagram" />
+                  <img src="./images/Skype.svg" alt="Skype" />
+                  <img src="./images/Twitter.svg" alt="Twitter" />
+                </div>
+                <div class="social">
+                  <img src="./images/Telegram.svg" alt="Telegram" />
+                  <div class="vector-down">
+                    <img
+                      class="vectorDown"
+                      src="./images/bxs_down-arrow.svg"
+                      alt=""
+                    />
+
+                    <img
+                      class="vectorRight"
+                      src="./images/bxs_right-arrow.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-button">
+              <button type="submit">Send</button>
+            </div>
+          </form>
+          <span class="close"
+            ><img src="./images/close.svg" alt="close"
+          /></span>
+        </div>
+      </div>
+    </div> -->
+    <script>
+      document.querySelectorAll('.nav-menu a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+
+          document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth',
+          });
+        });
+      });
+
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.querySelector('header').style.top = '0';
+        } else if (
+          currentScrollPos > document.querySelector('header').offsetHeight
+        ) {
+          document.querySelector('header').style.top = '-7.2rem';
+        }
+        prevScrollpos = currentScrollPos;
+      };
+    </script>
+    <script>
+      var app = new Vue({
+        el: '#app',
+        data: {
+          landingData: {
+            sectionTitle: {
+              h2: {
+                bannerSec: {
+                  item: 'A New Future on a New Coin',
+                  coin: 'WXN',
+                },
+                aboutSec: 'About us',
+                systemSec: {
+                  item: 'Eco System',
+                  coin: 'Waxen',
+                },
+                passiveIncomeSec: 'Passive Income',
+                howSec: 'How is work',
+                eventSec: 'Waxen Events',
+              },
+              h3: {
+                systemSec1: 'eMain',
+                systemSec2: 'ARB Systems',
+                systemSec3: 'EnviMiners',
+                systemSec4: 'Multex Solutions',
+                howSec1: 'Mutlex Solution',
+                howSec2: 'Mutlex Solution',
+                howSec3: 'Mutlex Solution',
+                howSec4: 'Mutlex Solution',
+                eventSec1: 'Envi Liners',
+                eventSec2: 'Envi Liners',
+                eventSec3: 'Envi Liners',
+              },
+            },
+            sectionText: {
+              bannerSec:
+                'Get a new opportunity to get into a coin habitat that will make your future cooler than ever!',
+              aboutSec:
+                'Sed sed massa sed ante ullamcorper consectetur. Mauris tincidunt orci arcu, in accumsan augue accumsan at. Fusce sed ultricies nisi. Vestibulum sit amet enim imperdiet, imperdiet metus id, blandit tortor. Nullam et sollicitudin dui, id blandit nisl.Maecenas ultricies, ligula eu semper imperdiet, quam sem placerat metus, nec consectetur ex sem eu nisi.',
+              systemSec1:
+                'eMine is creating new network blockchain structures to ensure the stable functioning of the cryptocurrency industry.',
+              systemSec2:
+                'ARB Systems company creates unique trading robots for cryptocurrency arbitrage, creates trading strategies for trading robots, analyzes the cryptocurrency market based on artificial intelligence, and directly arbitrates cryptocurrencies.',
+              systemSec3:
+                'EnviMiners collects analytical data regarding the field of ecological mining and its impact on the environment, and then develops and manufactures ecological mining equipment.',
+              systemSec4:
+                'Multex Solutions produces clean energy, alternative energy sources',
+              passiveIncomeSec:
+                'Sed sed massa sed ante ullamcorper consectetur. Mauris tincidunt orci arcu, in accumsan augue accumsan at. Fusce sed ultricies nisi. Vestibulum sit amet enim imperdiet, imperdiet metus id, blandit tortor. Nullam et sollicitudin dui, id blandit nisl.Sed sed massa sed ante ullamcorper consectetur. Mauris tincidunt orci arcu, in accumsan augue accumsan at. Fusce sed ultricies nisi. Vestibulum sit amet enim imperdiet, imperdiet metus id, blandit tortor. Nullam et sollicitudin dui, id blandit nisl.Sed sed massa sed ante ullamcorper consectetur. Mauris tincidunt orci arcu, in accumsan augue accumsan at. Fusce sed ultricies nisi. Vestibulum sit amet enim imperdiet, imperdiet metus id, blandit tortor. Nullam et sollicitudin dui, id blandit nisl.',
+              howSec1:
+                'Sed sed massa sed ante ullamcorper consectetur. Mauris tincidunt orci arcu, in accumsan augue accumsan at.',
+              howSec2:
+                'Sed sed massa sed ante ullamcorper consectetur. Mauris tincidunt orci arcu, in accumsan augue accumsan at.',
+              howSec3:
+                'Sed sed massa sed ante ullamcorper consectetur. Mauris tincidunt orci arcu, in accumsan augue accumsan at.',
+              howSec4:
+                'Sed sed massa sed ante ullamcorper consectetur. Mauris tincidunt orci arcu, in accumsan augue accumsan at.',
+              eventSec1:
+                'Sed sed massa sed ante ullamcorper consectetur. Mauris tincidunt orci arcu, in accumsan augue accumsan at.',
+              eventSec2:
+                'Sed sed massa sed ante ullamcorper consectetur. Mauris tincidunt orci arcu, in accumsan augue accumsan at.',
+              eventSec3:
+                'Sed sed massa sed ante ullamcorper consectetur. Mauris tincidunt orci arcu, in accumsan augue accumsan at.',
+            },
+            sectionImg: {
+              aboutSec: './images/Play.png',
+              systemSec1: './images/eMain.png',
+              systemSec2: './images/ARBSystems.png',
+              systemSec3: './images/EnviMiners.png',
+              systemSec4: './images/Multex Solutions.png',
+              passiveIncomeSec: './images/waxen.png',
+              howSec: './images/Mobile. Dashboard.png',
+              eventSec1: './images/events-img-3.png',
+              eventSec2: './images/events-img-2.png',
+              eventSec3: './images/events-img-1.png',
+              registrationSec: './images/LOGO WXN 1.png',
+            },
+            social: {
+              twitter: './images/ant-design_twitter-outlined.svg',
+              facebook: './images/ant-design_facebook-filled.svg',
+              linkedin: './images/ant-design_linkedin-filled.svg',
+            },
+            buttons: {
+              btnSignUp: 'Sign up',
+              btnJoin: 'Join',
+
+              btnJoinNow: 'Join now',
+            },
+            navMenu: {
+              linkAbout: 'About',
+              linkEcoSystem: 'Eco system',
+              linkCoin: 'Coin',
+              linkEvents: 'Events',
+              linkContactUs: 'Contact us',
+            },
+            logoImage: './images/logo.svg',
+          },
+        },
+      });
+    </script>
+    <script src="./scripts/modal-window.js"></script>
+    <script src="./scripts/social.js"></script>
+    <script src="./scripts/responsive-menu.js"></script>
+  </body>
+</html>
