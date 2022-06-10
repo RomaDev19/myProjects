@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="sidenav">
+          <div>
+            <a href="index.html"><h2>Traider</h2></a>
+
+            <ul class="nav-menu">
+              <li>
+                <div class="item-menu dashboard selected">
+                  <a href="dashboard.html"
+                    ><div class="icon">
+                      <img src="./images/dashboard-active.svg" alt="" />
+                    </div>
+                    <div class="txt" style="font-weight: 600">Dashboard</div></a
+                  >
+                </div>
+
+                <div class="item-menu clients">
+                  <a href="clients.html"
+                    ><div class="icon">
+                      <img src="./images/clients.svg" alt="" />
+                    </div>
+                    <div class="txt">Clients</div></a
+                  >
+                </div>
+
+                <div class="item-menu structure">
+                  <a href="fake.html"
+                    ><div class="icon">
+                      <img src="./images/structure.svg" alt="" />
+                    </div>
+                    <div class="txt">Structure</div></a
+                  >
+                </div>
+
+                <div class="item-menu deposit">
+                  <a href="deposit.html"
+                    ><div class="icon">
+                      <img src="./images/deposit.svg" alt="" />
+                    </div>
+                    <div class="txt">Deposit</div></a
+                  >
+                </div>
+
+                <div class="item-menu product">
+                  <a href="pool.html"
+                    ><div class="icon">
+                      <img src="./images/product.svg" alt="" />
+                    </div>
+                    <div class="txt">Product</div></a
+                  >
+                </div>
+
+                <div class="item-menu coin">
+                  <a href="coin.html"
+                    ><div class="icon">
+                      <img src="./images/coin.svg" alt="" />
+                    </div>
+                    <div class="txt">Coin</div></a
+                  >
+                </div>
+
+                <div class="item-menu settings">
+                  <a href="award.html"
+                    ><div class="icon">
+                      <img src="./images/Setting.svg" alt="" />
+                    </div>
+                    <div class="txt">Settings</div></a
+                  >
+                </div>
+                <div class="item-menu finance">
+                  <a href="finance.html"
+                    ><div class="icon">
+                      <img src="./images/Activity.svg" alt="" />
+                    </div>
+                    <div class="txt">Finance</div></a
+                  >
+                </div>
+              </li>
+            </ul>
+
+            <div class="switch-theme">
+              <img src="./images/Frame 5854.svg" alt="" />
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="mainnav">
+          <div class="header">
+            <div class="h-block"></div>
+            <h1>Dashboard</h1>
+            <div class="menu-btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="profile">
+              <p>Olseter Makneym</p>
+              <a>
+                <div class="user-icon">
+                  <img src="./images/Avatar-10.png" alt="" />
+                </div>
+
+                <div class="user-select">
+                  <img src="./images/eva_arrow-ios-downward-fill.svg" alt="" />
+                </div>
+                <div id="popup-profile" class="popup-profile">
+                  <a class="edit-profile">
+                    <img src="./images/ant-design_edit-outlined.svg" alt="" />
+                    <div class="">Edit Profile</div>
+                  </a>
+                  <a href="">
+                    <img src="./images/bx_bx-log-out.svg" alt="" />
+                    <div>Log out</div>
+                  </a>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="template">
+            <div class="title-dashboard">
+              <div>Total</div>
+              <div class="calendar-blck">
+                <div class="switch-cal">
+                  <div class="btn">
+                    <img
+                      src="./images/Next.svg"
+                      width="15"
+                      height="15"
+                      alt=""
+                    />
+                  </div>
+                  <div><span>4 September</span></div>
+                  <div class="btn">
+                    <img
+                      src="./images/Next2.svg"
+                      width="15"
+                      height="15"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <div class="btn-calendar">
+                  <img
+                    src="./images/akar-icons_calendar.svg"
+                    width="20"
+                    height="20"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="dashboard" class="template">
+            <div class="title-dashboard h-el">Total</div>
+            <div class="temp-container">
+              <div class="item">
+                <div class="name">
+                  BTC
+                  <a href="#"><img src="./images/alert-circle.svg" alt="" /></a>
+                </div>
+                <div class="value">52</div>
+              </div>
+
+              <div class="item">
+                <div class="name">
+                  ETH
+                  <a href="#"><img src="./images/alert-circle.svg" alt="" /></a>
+                </div>
+                <div class="value">521</div>
+              </div>
+
+              <div class="item">
+                <div class="name">
+                  TRX
+                  <a href="#"><img src="./images/alert-circle.svg" alt="" /></a>
+                </div>
+                <div class="value">12</div>
+              </div>
+
+              <div class="item">
+                <div class="name">
+                  LTC
+                  <a href="#"><img src="./images/alert-circle.svg" alt="" /></a>
+                </div>
+                <div class="value">82</div>
+              </div>
+            </div>
+            <div class="title-dashboard">Output amount</div>
+            <div class="temp-container">
+              <div class="item">
+                <div class="name">
+                  BTC
+                  <a href="#"><img src="./images/alert-circle.svg" alt="" /></a>
+                </div>
+                <div class="value red">52</div>
+              </div>
+
+              <div class="item">
+                <div class="name">
+                  ETH
+                  <a href="#"><img src="./images/alert-circle.svg" alt="" /></a>
+                </div>
+                <div class="value red">521</div>
+              </div>
+
+              <div class="item">
+                <div class="name">
+                  TRX
+                  <a href="#"><img src="./images/alert-circle.svg" alt="" /></a>
+                </div>
+                <div class="value red">12</div>
+              </div>
+
+              <div class="item">
+                <div class="name">
+                  LTC
+                  <a href="#"><img src="./images/alert-circle.svg" alt="" /></a>
+                </div>
+                <div class="value red">82</div>
+              </div>
+            </div>
+            <div class="title-dashboard">Total</div>
+            <div class="temp-container">
+              <div
+                class="item"
+                style="
+                  background: url('./images/Shape4.png'),
+                    linear-gradient(
+                      103.5deg,
+                      #000000 7.5%,
+                      #070a03 66.74%,
+                      #000000 112.06%
+                    ) !important;
+                  background-repeat: no-repeat !important;
+                  background-position: 6% 100% !important;
+                "
+              >
+                <div class="name">
+                  Clients
+                  <a href="#"><img src="./images/alert-circle.svg" alt="" /></a>
+                </div>
+                <div class="value">423</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="responsive-menu menu">
+      <a href="index.html"><h2>Traider</h2></a>
+
+      <ul class="nav-menu">
+        <li>
+          <div class="item-menu dashboard selected">
+            <a href="dashboard.html"
+              ><div class="icon">
+                <img src="./images/Category.svg" alt="" />
+              </div>
+              <div class="txt">Dashboard</div></a
+            >
+          </div>
+
+          <div class="item-menu clients">
+            <a href="clients.html"
+              ><div class="icon"><img src="./images/Chart.svg" alt="" /></div>
+              <div class="txt">Clients</div></a
+            >
+          </div>
+
+          <div class="item-menu structure">
+            <a href="fake.html"
+              ><div class="icon">
+                <img src="./images/Document.svg" alt="" />
+              </div>
+              <div class="txt">Structure</div></a
+            >
+          </div>
+
+          <div class="item-menu deposit">
+            <a href="deposit.html"
+              ><div class="icon"><img src="./images/Wallet.svg" alt="" /></div>
+              <div class="txt">Deposit</div></a
+            >
+          </div>
+
+          <div class="item-menu product">
+            <a href="pool.html"
+              ><div class="icon">
+                <img src="./images/Discount.svg" alt="" />
+              </div>
+              <div class="txt">Product</div></a
+            >
+          </div>
+
+          <div class="item-menu coin">
+            <a href="coin.html"
+              ><div class="icon">
+                <img src="./images/Activity.svg" alt="" />
+              </div>
+              <div class="txt">Coin</div></a
+            >
+          </div>
+
+          <div class="item-menu settings">
+            <a href="award.html"
+              ><div class="icon"><img src="./images/Setting.svg" alt="" /></div>
+              <div class="txt">Settings</div></a
+            >
+          </div>
+          <div class="item-menu finance">
+            <a href="finance.html"
+              ><div class="icon"><img src="./images/finance.svg" alt="" /></div>
+              <div class="txt">Finance</div></a
+            >
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div id="modal-calendar" class="calendar">
+      <!-- Modal content -->
+      <div class="calendar-content">
+        <div class="calendar-header">
+          <div>
+            <h2>Desember 22</h2>
+            <a href="#"><img src="./images/Vector3.svg" alt="" /></a>
+          </div>
+
+          <span class="close">&times;</span>
+        </div>
+        <div class="calendar-panel">
+          <div class="title">
+            <div>Mo</div>
+            <div>Tu</div>
+            <div>We</div>
+            <div>Th</div>
+            <div>Fr</div>
+            <div>Sa</div>
+            <div>Su</div>
+          </div>
+          <div class="panel">
+            <div>
+              <div style="visibility: hidden">Mo</div>
+              <div style="visibility: hidden">Tu</div>
+              <div style="visibility: hidden">We</div>
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+              <div>4</div>
+            </div>
+            <div>
+              <div>5</div>
+              <div>6</div>
+              <div>7</div>
+              <div>8</div>
+              <div>9</div>
+              <div>10</div>
+              <div>11</div>
+            </div>
+            <div>
+              <div>12</div>
+              <div>13</div>
+              <div>14</div>
+              <div>15</div>
+              <div>16</div>
+              <div>17</div>
+              <div>18</div>
+            </div>
+            <div>
+              <div>19</div>
+              <div>20</div>
+              <div>21</div>
+              <div>22</div>
+              <div>23</div>
+              <div>24</div>
+              <div>25</div>
+            </div>
+            <div>
+              <div>26</div>
+              <div>27</div>
+              <div>28</div>
+              <div>29</div>
+              <div>30</div>
+              <div>31</div>
+              <div style="visibility: hidden">Su</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="modalProfile" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="container-header">
+            <div class="back-btn">
+              <img src="./images/eva_arrow-ios-back-fill.svg" alt="" />
+            </div>
+            <h1>Edit Profile</h1>
+
+            <span class="close">&times;</span>
+            <span class="btn-more"
+              ><img src="./images/clarity_window-close-line.svg" alt=""
+            /></span>
+          </div>
+          <div>
+            <div><img src="./images/01.png" alt="" /></div>
+            <div>
+              <div class="title">Change</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="" class="modal-sec">
+          <div class="info">
+            <div class="item">
+              <label for="name">Full name</label>
+              <input id="name" type="text" placeholder="Kaylynn Bator" />
+            </div>
+            <div class="item d-n" style="visibility: hidden">
+              <label for="number">Number</label>
+              <input id="number" type="text" value="+380662901231 " />
+            </div>
+            <div class="item">
+              <label for="login">Email</label>
+              <input id="login" type="text" placeholder="ciklum@gmai.com" />
+            </div>
+            <div class="item">
+              <label for="password">Password</label>
+              <input
+                id="password"
+                type="text"
+                placeholder="Phantom2421#!@lspp01"
+              />
+            </div>
+          </div>
+          <div class="add-client-mob">Save</div>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/responsive-menu.js"></script>
+    <script src="./scripts/calendar.js"></script>
+    <script src="./scripts/modal-profile.js"></script>
+    <script src="./scripts/popup-profile.js"></script>
+  </body>
+</html>
