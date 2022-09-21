@@ -1,0 +1,261 @@
+[10-Jun-2020 12:55:14 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 4
+[10-Jun-2020 12:55:14 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 5
+[10-Jun-2020 12:55:14 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 6
+[10-Jun-2020 12:55:14 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 12:55:15 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 17
+[10-Jun-2020 12:55:15 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 18
+[10-Jun-2020 12:55:15 UTC] PHP Notice:  Undefined variable: email in /home/lrxvukuw/charmua.com/mail.php on line 25
+[10-Jun-2020 12:55:15 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 27
+[10-Jun-2020 12:55:15 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 31
+[10-Jun-2020 12:57:01 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 4
+[10-Jun-2020 12:57:01 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 5
+[10-Jun-2020 12:57:01 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 6
+[10-Jun-2020 12:57:01 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 12:57:01 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 17
+[10-Jun-2020 12:57:01 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 18
+[10-Jun-2020 12:57:01 UTC] PHP Notice:  Undefined variable: email in /home/lrxvukuw/charmua.com/mail.php on line 25
+[10-Jun-2020 12:57:01 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 27
+[10-Jun-2020 12:57:01 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 31
+[10-Jun-2020 12:58:24 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 4
+[10-Jun-2020 12:58:24 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 5
+[10-Jun-2020 12:58:24 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 6
+[10-Jun-2020 12:58:24 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 12:58:24 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 17
+[10-Jun-2020 12:58:24 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 18
+[10-Jun-2020 12:58:24 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 19
+[10-Jun-2020 12:58:24 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 28
+[10-Jun-2020 12:58:24 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 32
+[10-Jun-2020 13:00:11 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 13:00:11 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 28
+[10-Jun-2020 13:00:11 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 32
+[10-Jun-2020 13:00:58 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 13:00:58 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 28
+[10-Jun-2020 13:00:58 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 32
+[10-Jun-2020 13:01:00 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 13:01:00 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 28
+[10-Jun-2020 13:01:00 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 32
+[10-Jun-2020 13:01:01 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 13:01:01 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 28
+[10-Jun-2020 13:01:01 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 32
+[10-Jun-2020 13:01:01 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 13:01:01 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 28
+[10-Jun-2020 13:01:01 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 32
+[10-Jun-2020 13:01:01 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 13:01:02 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 28
+[10-Jun-2020 13:01:02 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 32
+[10-Jun-2020 13:01:28 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 13:01:28 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 28
+[10-Jun-2020 13:01:28 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 32
+[10-Jun-2020 13:10:24 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 13:10:24 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 28
+[10-Jun-2020 13:10:24 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 32
+[10-Jun-2020 13:17:28 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 4
+[10-Jun-2020 13:17:28 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 5
+[10-Jun-2020 13:17:28 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 6
+[10-Jun-2020 13:17:28 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 13:17:28 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 17
+[10-Jun-2020 13:17:28 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 18
+[10-Jun-2020 13:17:28 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 19
+[10-Jun-2020 13:17:28 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 28
+[10-Jun-2020 13:17:28 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 32
+[10-Jun-2020 13:17:44 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 13:17:44 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 28
+[10-Jun-2020 13:17:44 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 32
+[10-Jun-2020 13:18:52 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 13:18:52 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 28
+[10-Jun-2020 13:18:52 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 32
+[10-Jun-2020 13:20:23 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 4
+[10-Jun-2020 13:20:23 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 5
+[10-Jun-2020 13:20:23 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 6
+[10-Jun-2020 13:20:23 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 13:20:24 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 17
+[10-Jun-2020 13:20:24 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 18
+[10-Jun-2020 13:20:24 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 19
+[10-Jun-2020 13:20:24 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 28
+[10-Jun-2020 13:20:24 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 32
+[10-Jun-2020 13:20:26 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 4
+[10-Jun-2020 13:20:26 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 5
+[10-Jun-2020 13:20:26 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 6
+[10-Jun-2020 13:20:26 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 13:20:26 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 17
+[10-Jun-2020 13:20:26 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 18
+[10-Jun-2020 13:20:26 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 19
+[10-Jun-2020 13:20:26 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 28
+[10-Jun-2020 13:20:26 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 32
+[10-Jun-2020 13:20:28 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 4
+[10-Jun-2020 13:20:28 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 5
+[10-Jun-2020 13:20:28 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 6
+[10-Jun-2020 13:20:28 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 13:20:29 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 17
+[10-Jun-2020 13:20:29 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 18
+[10-Jun-2020 13:20:29 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 19
+[10-Jun-2020 13:20:29 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 28
+[10-Jun-2020 13:20:29 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 32
+[10-Jun-2020 13:22:45 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 4
+[10-Jun-2020 13:22:45 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 5
+[10-Jun-2020 13:22:45 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 6
+[10-Jun-2020 13:22:45 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 13:22:45 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 17
+[10-Jun-2020 13:22:45 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 18
+[10-Jun-2020 13:22:45 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 19
+[10-Jun-2020 13:22:45 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 28
+[10-Jun-2020 13:22:45 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 32
+[10-Jun-2020 13:24:00 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 13:24:00 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 28
+[10-Jun-2020 13:24:00 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 32
+[10-Jun-2020 13:28:05 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 13:28:05 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 28
+[10-Jun-2020 13:28:05 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 32
+[10-Jun-2020 13:29:35 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 13:29:35 UTC] PHP Notice:  Undefined variable: company in /home/lrxvukuw/charmua.com/mail.php on line 28
+[10-Jun-2020 13:29:35 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 32
+[10-Jun-2020 13:29:57 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 13:29:57 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 31
+[10-Jun-2020 13:30:50 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail.php on line 7
+[10-Jun-2020 13:30:50 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 31
+[10-Jun-2020 13:30:50 UTC] PHP Warning:  fopen(https://api.telegram.org/bot1268602125:AAHwos4Wz0babwLmP48jWN9AnhYRMINuy2c/sendMessage?chat_id=-330754821&amp;parse_mode=html&amp;text=): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/lrxvukuw/charmua.com/mail.php on line 31
+[10-Jun-2020 13:34:51 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 4
+[10-Jun-2020 13:34:51 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 5
+[10-Jun-2020 13:34:51 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 6
+[10-Jun-2020 13:34:51 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 16
+[10-Jun-2020 13:34:51 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 17
+[10-Jun-2020 13:34:51 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 18
+[10-Jun-2020 13:35:55 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 30
+[10-Jun-2020 13:36:28 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 4
+[10-Jun-2020 13:36:28 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 5
+[10-Jun-2020 13:36:28 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 6
+[10-Jun-2020 13:36:28 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 16
+[10-Jun-2020 13:36:28 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 17
+[10-Jun-2020 13:36:28 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 18
+[10-Jun-2020 13:36:28 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 30
+[10-Jun-2020 13:36:49 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 4
+[10-Jun-2020 13:36:49 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 5
+[10-Jun-2020 13:36:49 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 6
+[10-Jun-2020 13:36:49 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 16
+[10-Jun-2020 13:36:49 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 17
+[10-Jun-2020 13:36:49 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 18
+[10-Jun-2020 14:21:08 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 4
+[10-Jun-2020 14:21:08 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 5
+[10-Jun-2020 14:21:08 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 6
+[10-Jun-2020 14:21:09 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 16
+[10-Jun-2020 14:21:09 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 17
+[10-Jun-2020 14:21:09 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 18
+[10-Jun-2020 14:21:09 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 30
+[10-Jun-2020 14:26:40 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail1.php on line 7
+[10-Jun-2020 14:26:40 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail1.php on line 7
+[10-Jun-2020 14:26:40 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail1.php on line 20
+[10-Jun-2020 14:26:40 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail1.php on line 33
+[10-Jun-2020 14:26:40 UTC] PHP Notice:  Undefined index: company in /home/lrxvukuw/charmua.com/mail1.php on line 20
+[10-Jun-2020 14:26:40 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail1.php on line 33
+[10-Jun-2020 14:27:35 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail1.php on line 30
+[10-Jun-2020 14:27:35 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail1.php on line 30
+[14-Jun-2020 20:49:45 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 4
+[14-Jun-2020 20:49:45 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 5
+[14-Jun-2020 20:49:45 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 6
+[14-Jun-2020 20:49:45 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 16
+[14-Jun-2020 20:49:45 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 17
+[14-Jun-2020 20:49:45 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 18
+[14-Jun-2020 20:49:45 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 30
+[14-Jun-2020 20:49:46 UTC] PHP Warning:  fopen(https://api.telegram.org/bot1268602125:AAHwos4Wz0babwLmP48jWN9AnhYRMINuy2c/sendMessage?chat_id=-330754821&amp;parse_mode=html&amp;text=&lt;b&gt;Имя пользователя: &lt;/b&gt; %0A&lt;b&gt;Email: &lt;/b&gt; %0A&lt;b&gt;Телефон: &lt;/b&gt; %0A&lt;b&gt;Сообщение: &lt;/b&gt; Hi! 
+I'm Prince Taylor. 
+ 
+I contacted you with an invitation for investment program witch you will definitely win. 
+ 
+The winning project I'm here to invite you is called &quot;Prance Gold Arbitrage (PGA)&quot;. 
+ 
+PGA is a proprietary system that creates profits between cryptocurrency exchanges through an automated trading program. 
+ 
+The absolute winning mechanism &quot;PGA&quot; gave everyone the opportunity to invest in there systems for a limited time. 
+ 
+You have chance to join from only $ 1000 and your assets grow with automated transactions every day! 
+ 
+Investors who participated in this program are doubling their assets in just a few months. 
+Believe or not is your choice. 
+But don't in /home/lrxvukuw/charmua.com/mail.php on line 33
+[16-Jun-2020 13:43:46 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 4
+[16-Jun-2020 13:43:46 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 5
+[16-Jun-2020 13:43:46 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 6
+[16-Jun-2020 13:43:46 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 16
+[16-Jun-2020 13:43:46 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 17
+[16-Jun-2020 13:43:46 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 18
+[16-Jun-2020 13:43:46 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 30
+[16-Jun-2020 13:43:46 UTC] PHP Warning:  fopen(https://api.telegram.org/bot1268602125:AAHwos4Wz0babwLmP48jWN9AnhYRMINuy2c/sendMessage?chat_id=-330754821&amp;parse_mode=html&amp;text=&lt;b&gt;Имя пользователя: &lt;/b&gt; %0A&lt;b&gt;Email: &lt;/b&gt; %0A&lt;b&gt;Телефон: &lt;/b&gt; %0A&lt;b&gt;Сообщение: &lt;/b&gt; Hello, 
+ 
+I think charmua.com has so much room to grow. You're operating in an industry that has lots of competitors, but also has a lot of customers. 
+ 
+Our company has been promoting web-sites for over 8 years and we would be glad to explain how you can improve the online visibility of charmua.com. 
+ 
+This won't cost you anything and if you like our approach, but don't have time to perform these tasks yourself,  we could talk about potentially outsourcing some of the work to us. 
+ 
+ charmua.com is a great site and it would be our pleasure to help grow it to it's full potential. 
+ 
+Simply reply to this email and we can setup a quick call or continue by email. 
+ 
+Thank you very much 
+ 
+ 
+Alexan in /home/lrxvukuw/charmua.com/mail.php on line 33
+[17-Jun-2020 04:39:51 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 4
+[17-Jun-2020 04:39:51 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 5
+[17-Jun-2020 04:39:51 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 6
+[17-Jun-2020 04:39:51 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 16
+[17-Jun-2020 04:39:51 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 17
+[17-Jun-2020 04:39:51 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 18
+[17-Jun-2020 04:39:51 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 30
+[19-Jun-2020 12:45:51 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 4
+[19-Jun-2020 12:45:51 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 5
+[19-Jun-2020 12:45:51 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 6
+[19-Jun-2020 12:45:51 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 16
+[19-Jun-2020 12:45:51 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 17
+[19-Jun-2020 12:45:51 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 18
+[19-Jun-2020 12:45:51 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 30
+[19-Jun-2020 12:45:52 UTC] PHP Warning:  fopen(https://...@gmail.com%0A): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/lrxvukuw/charmua.com/mail.php on line 33
+[07-Jul-2020 00:12:23 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 4
+[07-Jul-2020 00:12:23 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 5
+[07-Jul-2020 00:12:23 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 6
+[07-Jul-2020 00:12:23 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 16
+[07-Jul-2020 00:12:23 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 17
+[07-Jul-2020 00:12:23 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 18
+[07-Jul-2020 00:12:23 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 30
+[07-Jul-2020 00:12:24 UTC] PHP Warning:  fopen(https://api.telegram.org/bot1268602125:AAHwos4Wz0babwLmP48jWN9AnhYRMINuy2c/sendMessage?chat_id=-330754821&amp;parse_mode=html&amp;text=&lt;b&gt;Имя пользователя: &lt;/b&gt; %0A&lt;b&gt;Email: &lt;/b&gt; %0A&lt;b&gt;Телефон: &lt;/b&gt; %0A&lt;b&gt;Сообщение: &lt;/b&gt; Добрый день! 
+ 
+Предлагаем рассылки ваших сообщений через контакт-формы сайтов фирм России.  
+Рассылки ваших сообщений по контакт-формам сайтов предприятий по всем доменным зонам мира.  
+ 
+https://kontakt-forma.cn/ 
+ 
+Ваше предложение приходит на контактный емаил фирмы. 
+ 
+Тест: 
+десять тысяч сообщений по РФ на ваш электронный ящик - пятьсот руб. 
+10000 сообщений по зарубежным зонам на ваш электронный ад� in /home/lrxvukuw/charmua.com/mail.php on line 33
+[13-Jul-2020 04:47:52 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail1.php on line 30
+[13-Jul-2020 04:47:52 UTC] PHP Warning:  fopen(https://...@talkwithwebvisitor.com%0A&lt;b&gt;Телефон: &lt;/b&gt; 416-385-3200%0A&lt;b&gt;Сообщение: &lt;/b&gt; Hi, Eric here with a quick thought about your website charmua.com...
+
+I’m on the internet a lot and I look at a lot of business websites.
+
+Like yours, many of them have great content. 
+
+But all too often, they come up short when it comes to engaging and connecting with anyone who visits.
+
+I get it – it’s hard.  Studies show 7 out of 10 people who land on a site, abandon it in moments without leaving even a trace.  You got the eyeball, but nothing else.
+
+Here’s a solution for you…
+
+Talk With Web Visitor is a software widget that’s works on your site, ready to capture any visitor’s Name, Email address and Phone Number.  You’ll know immediately they’re interested and you can call them directly to talk with them literally while they’re still on the web looking at your site.
+
+CLICK HERE http://www.talkwithwebvisitor.com to try out a Live Demo with T in /home/lrxvukuw/charmua.com/mail1.php on line 33
+[13-Jul-2020 23:55:47 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 4
+[13-Jul-2020 23:55:47 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 5
+[13-Jul-2020 23:55:47 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 6
+[13-Jul-2020 23:55:47 UTC] PHP Notice:  Undefined index: name in /home/lrxvukuw/charmua.com/mail.php on line 16
+[13-Jul-2020 23:55:47 UTC] PHP Notice:  Undefined index: email in /home/lrxvukuw/charmua.com/mail.php on line 17
+[13-Jul-2020 23:55:47 UTC] PHP Notice:  Undefined index: phone in /home/lrxvukuw/charmua.com/mail.php on line 18
+[13-Jul-2020 23:55:47 UTC] PHP Notice:  Undefined variable: txt in /home/lrxvukuw/charmua.com/mail.php on line 30
+[13-Jul-2020 23:55:47 UTC] PHP Warning:  fopen(https://api.telegram.org/bot1268602125:AAHwos4Wz0babwLmP48jWN9AnhYRMINuy2c/sendMessage?chat_id=-330754821&amp;parse_mode=html&amp;text=&lt;b&gt;Имя пользователя: &lt;/b&gt; %0A&lt;b&gt;Email: &lt;/b&gt; %0A&lt;b&gt;Телефон: &lt;/b&gt; %0A&lt;b&gt;Сообщение: &lt;/b&gt; &lt;b&gt;Комментарий одобрен&lt;/b&gt; 
+ 
+pinup слоты 
+&lt;a href=https://meanders.ru/vulkanpobeda.shtml&gt;vulkan pobeda casino&lt;/a&gt;%0A): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/lrxvukuw/charmua.com/mail.php on line 33
